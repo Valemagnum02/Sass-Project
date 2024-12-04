@@ -1,0 +1,33 @@
+$navhover: #ff0000;
+$colorhover: rgb(231, 231, 180);
+$navpadding: 20px 30px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+     color: beige;
+}
+
+.nav{
+    background-color: rgb(163,0,0);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+
+
+    .nav-sele{
+        padding: $navpadding;
+       
+
+        &:hover{
+            background-color: $navhover;
+            color: $colorhover;
+           
+        }
+    }
+}

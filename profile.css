@@ -1,3 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-size: 18px;
+  color: beige;
+}
+
+.nav {
+  background-color: rgb(163, 0, 0);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.nav .nav-sele {
+  padding: 20px 30px;
+}
+.nav .nav-sele:hover {
+  background-color: #ff0000;
+  color: rgb(231, 231, 180);
+}
 
 /*# sourceMappingURL=profile.css.map */
